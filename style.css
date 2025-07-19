@@ -25,6 +25,16 @@
     font-weight: 600;
 }
 
+.panda-buy-btn{
+    border-radius: 6px;
+    background: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
 /* nav */
 
 nav{
@@ -109,8 +119,7 @@ nav{
 
 /* card container */
 .categories{
-    margin-top: 64px;
-    margin-bottom: 64px;
+    margin: 64px auto
 }
 
 .categories-card-container{
@@ -149,5 +158,57 @@ nav{
     font-size: 36px;
     font-weight: 500;
     
+}
+
+/* shoes and bags section */
+
+.shoes-bag-section{
+    background-color: rgb(244, 244, 244);
+    padding: 50px 0;
+}
+
+.shoes-bagpack-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.shoes-bagpack-title h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.shoes-bagpack-title p{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(255, 157, 0);
+}
+
+   
+
+
+.shoes-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.shoes-card{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 24px;
+    text-align: center;
+
+}
+
+.card-price{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.shoes-card img{
+    width: 290px;
+    height: 210px;
 }
 
