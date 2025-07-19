@@ -185,9 +185,6 @@ nav{
     color: rgb(255, 157, 0);
 }
 
-   
-
-
 .shoes-card-container{
     display: flex;
     justify-content: space-between;
@@ -210,5 +207,40 @@ nav{
 .shoes-card img{
     width: 290px;
     height: 210px;
+}
+
+/* let's Touch Section */
+
+.let-touch{
+    background-color: rgb(255,242,241);
+    text-align: center;
+    margin: 70px;
+    padding: 140px 250px;
+    border-radius: 10px;
+}
+
+.let-touch input{
+    border: none;
+    padding: 16px 155px;
+}
+
+.contact-input{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.contact-input input{
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+.contact-input button{
+    padding: 20px 46px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
