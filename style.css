@@ -20,6 +20,13 @@
     font-weight: 500;
 }
 
+.section-title{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* nav */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -99,3 +106,48 @@ nav{
     display: inline-block;
     margin-bottom: 15px;
 }
+
+/* card container */
+.categories{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.categories-card-container{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 26px;
+}
+
+
+.card-container{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 30px 42px;
+    align-items: center;
+    border-radius: 10px;
+    /* sobar eki rokom width er jonno hosse and also for equal distribution  */
+    flex: 1;
+}
+
+.card-container:nth-child(1){
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+
+.card-container:nth-child(2){
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+
+.card-container:nth-child(3){
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+
+.card-container h3{
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    
+}
+
